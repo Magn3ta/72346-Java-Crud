@@ -17,3 +17,5 @@ Open `src/Main.java`, click the green play button next to `main`, then open http
 - `src/Note.java` - the note data
 - `src/NoteStore.java` - create, read, update, delete and saving to file
 - `src/Main.java` - web server, routes and HTML pages
+
+Pull Request done by Nikita 72662

@@ -30,6 +30,10 @@ public class Main {
 
         log("INFO", "Application started successfully on http://localhost:" + PORT);
         log("INFO", "Press the red stop button in IntelliJ to shut down.");
+
+        store.create("TestNote1", "Blablablabla");
+        store.create("TestNote2", "Blablablabla123");
+        store.create("TestNote3", "Blablablabla1234567890");
     }
 
     // ---------- routing ----------
@@ -37,6 +41,7 @@ public class Main {
     private static void handle(HttpExchange ex) throws IOException {
         String method = ex.getRequestMethod();
         String path = ex.getRequestURI().getPath();
+
         int status = 200;
         try {
             if (method.equals("GET") && path.equals("/")) {
