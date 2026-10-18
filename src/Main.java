@@ -11,10 +11,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * A tiny web server using only the JDK. The HTML is built here in Java,
- * so there is no JavaScript and no outside library.
- */
 public class Main {
     private static final int PORT = 8080;
     private static final DateTimeFormatter TIME = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");

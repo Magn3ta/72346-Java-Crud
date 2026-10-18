@@ -6,7 +6,6 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Holds the notes in memory and saves them to a text file after every change. */
 public class NoteStore {
     private final Path file;
     private final List<Note> notes = new ArrayList<>();
