@@ -1,7 +1,7 @@
    # Documentation
 
    ## Application running locally
-   ![Application running locally](localstart.png)
+   ![Application running locally](start.png)
 
    ## CRUD functionality
    ![Creating notes](create.png)
